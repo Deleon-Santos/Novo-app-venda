@@ -164,7 +164,6 @@ def pagar(soma2):
          sg.Text(f'R$ 0.00', size=(18, 1), key="R$", justification='right', font=("Any", 18))],
         [sg.Text("", size=(10, 1))],
         [sg.Button('CARTAO', size=(20, 1)), sg.Button('PIX', size=(20, 1)), sg.Button('DINHEIRO', size=(20, 1))],
-
     ]
 
     window = sg.Window("PAGAMENTO", layout, finalize=True)
